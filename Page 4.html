@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="jss\main.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.js">
+
+    <title>Fizica</title>
+
+    <body style="background-color:rgb(0, 0, 0)">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+
+
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <div id="mySidenav" class="sidenav">
+      <!--  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+      
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+      <a href="HOMEPAGE.html">
+        <nav style="font-weight: bold;">
+          HOME
+        </nav>
+      </a>
+
+      <a href="Page 1.html">
+        <nav>
+          Dispersia luminii si Prisma Optică
+        </nav>
+      </a>
+    
+      <a href="Page 2.html">
+        <nav>
+          Interferența: lama cu fețe plan paralele
+        </nav>
+      </a>
+    
+      <a href="Page 3.html">
+        <nav>
+        Interferența: Inelele lui Newton
+      </nav>
+      </a>
+    
+
+    
+      <a href="Page 5.html">
+        <nav>
+        Difracția pe o fantă circulară
+      </nav>
+      </a>
+    
+      <a href="Page 6.html">
+        <nav>
+        Polarizarea luminii
+      </nav>
+      </a>
+    
+    
+    </div>
+      
+    <span id="Open" class="Open" style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776; </span>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("Open").style.color ="rgba(255, 0, 0, 0)";
+      document.getElementById('dreapta').style.display = 'none';
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("Open").style.color =" black";
+      document.getElementById('dreapta').style.display = 'block';
+
+    }
+    </script>
+
+
+    
+    <div class="sw-Banner"> <!--dreapta-->
+      <a href="Page 5.html">
+        <img id="dreapta" src="https://tema03.wordpress.com/wp-content/uploads/2024/05/tarrow-2.png" class="Sageata"></a>
+    </div>
+
+    <div class="sw-banner"><!--stanga-->
+        <a href="Page 3.html">
+          <img src="https://tema03.wordpress.com/wp-content/uploads/2024/05/tarrow-1.png" class="sageata"></a>
+      </div>
+
+
+    <h1 id="4" class="vai">Difracția pe o fantă dreptunghiulară</h1>
+
+  <p> <strong style="font-size: 30px;"> DIFRACŢIA LUMINII </strong> </p> 
+ <p style="font-size: 25px;">Noţiuni generale:</p> 
+ <p>
+  Principiul Huygens-Fresnel  Difracţia luminii 
+ este fenomenul de propagare a luminii în spateleobstacolelor sau fantelor (în zona de umbră geometrică), atunci cânddimensiunile acestora sunt 
+ comparabile sau mai mici, ca ordin de mărime, culungimea de undă a luminii. Acest fenomen ondulatoriu se produce în mediicu neomogenităţi 
+ suficient de mici astfel încât legile opticii geometrice nu maisunt respectate. Pe de altă parte, difracţia, este fenomenul de abaterea de la 
+ propagarea rectilinie a luminii sau ocolirea aparentă a unui obstacol de cătreundele ce se propagă într-un alt mediu.Fenomenul de difracție se 
+ poate explica pe baza principiului luiHuygens. Ocolirea aparentă a unui obstacol este însoțită de fenomenul de producere a franjelor de difracție. 
+ Fresnel a completat principiul lui Huygens adăugând faptul căundele secundare sunt coerente şi, deci aceste unde secundare interferă. 
+ Astfel, principiul lui Huygens corelat cu principiul de interferenţă al luiFresnel poartă numele de principiul Huygens-Fresnel: „Fiecare punct de 
+ pe unfront de undă poate fi considerat ca punct de plecare al unei unde elementare,care se propagă cu aceeaşi viteză şi lungime de undă ca şi unda 
+ iniţială”. Noulfront de undă este creat prin însumarea tuturor acestor unde elementare.Marginile fantei (sau obstacolului) atinse de unda incidentă
+  devinsurse de noi unde secundare care sunt coerente şi dau pe ecran (sau pe retină,în cazul observării cu ochiul liber) o figură de difracție. 
+  Difracţia
+FRESNEL
+ (în cazul fasciculelor convergente sau divergente)se realizează atunci când sursa se află la o distanţă destul de apropiată deobstacol, astfel încât curbura fronturilor de undă nu mai poate fi neglijată.
+</p>
+
+<br><br>
+
+
+
+<p style="font-size: 30px">
+  Difracţia Fraunhofer printr-o fantă
+dreptunghiulară:</p>
+<p>
+Fie o fantă dreptunghiulară de deschidere a pe care cade sub incidenţă
+normală un fascicol de unde coerente. Punctele fantei devin surse secundare care
+emit unde sferice ce pot produce procese de interferenţă. Amplitudinea undei
+rezultante în punctul P se obţine prin compunerea vectorială a amplitudinilor
+undelor componente rezultând o linie poligonală.
+Să considerăm un număr infinit mare de surse punctiforme din fantă.
+Linia poligonală devinde astfel un arc de cerc. Dacă notăm cu E amplitudinea
+câmpului electric în punctul P şi cu E0 suma modulelor amplitudinilor
+elementare a câmpului electric lungime egală cu arcul BM, iar φ este diferenţa
+de fază a undelor ce interferă în punctul P şi provin de la extremităţile fantei:
+</p>
+
+
+<div style="text-align: left; padding-left: 200px;">
+  <img style="height: 200px" src="https://tema03.wordpress.com/wp-content/uploads/2024/06/e1-143494439-e1717610975732.png" class="image"> 
+  </div>
+
+<p>sau înlocuind jumătate din unghiul φ cu:
+</p>
+
+  <div style="text-align: left;padding-left: 180px;">
+    <img style="height: 150px" src="https://tema03.wordpress.com/wp-content/uploads/2024/06/e2.png" class="image"> 
+    </div>
+
+
+<p>
+  de unde amplitudinea câmpului electric este:
+
+</p>
+    <div style="text-align: left;padding-left: 180px;">
+      <img style="height: 200px" src="https://tema03.wordpress.com/wp-content/uploads/2024/06/e3.png" class="image"> 
+      </div>
+
+
+
+
+<!--  http://magnum.engineering.upm.ro/~mtero/CURSURI/Fizica%20pt%20specialitati%20ingineresti/File/Module/CAPITOL17.pdf
+      linku DE REFERINTA
+-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+</body>
+</html>

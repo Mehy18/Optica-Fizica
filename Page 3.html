@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="jss\main.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.js">
+
+    <title>Fizica</title>
+
+    <body style="background-color:rgb(0, 0, 0)">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+
+
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <div id="mySidenav" class="sidenav">
+      <!--  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+      <a href="HOMEPAGE.html">
+        <nav style="font-weight: bold;">
+          HOME
+        </nav>
+      </a>
+
+      <a href="Page 1.html">
+        <nav>
+          Dispersia luminii si Prisma Optică
+        </nav>
+      </a>
+    
+      <a href="Page 2.html">
+        <nav>
+          Interferența: lama cu fețe plan paralele
+        </nav>
+      </a>
+    
+
+    
+      <a href="Page 4.html">
+        <nav>
+        Difracția pe o fantă dreptunghiulară
+      </nav>
+    </a>
+    
+      <a href="Page 5.html">
+        <nav>
+        Difracția pe o fantă circulară
+      </nav>
+      </a>
+    
+      <a href="Page 6.html">
+        <nav>
+        Polarizarea luminii
+      </nav>
+      </a>
+    
+    
+    </div>
+    
+    
+    
+    <span id="Open" class="Open" style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776; </span>
+    
+    
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("Open").style.color ="rgba(255, 0, 0, 0)";
+      document.getElementById('dreapta').style.display = 'none';
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("Open").style.color =" black";
+      document.getElementById('dreapta').style.display = 'block';
+
+    }
+    </script>
+
+
+    
+    <div class="sw-Banner"> <!--dreapta-->
+      <a href="Page 4.html">
+        <img id="dreapta" src="https://tema03.wordpress.com/wp-content/uploads/2024/05/tarrow-2.png" class="Sageata"></a>
+    </div>
+
+    <div class="sw-banner"><!--stanga-->
+        <a href="Page 2.html">
+          <img src="https://tema03.wordpress.com/wp-content/uploads/2024/05/tarrow-1.png" class="sageata"></a>
+      </div>
+  
+
+    <h1 id="3" class="vai">Interferența: Inelele lui Newton</h1>
+
+  <p><strong style="font-size: 30px;">Definiție: <br></strong>
+    Fie o pană de aer cuprinsă între un plan şi o suprafaţă sferică, pană ce se poate realiza aşezând o lamă cu feţe plan-paralele din sticlă pe o lentilă plan-convexă, raza de curbură
+     a suprafeţei sferice fiind de ordinul 60-100m (vezi figura). Un fascicul paralel de raze de lumină, ce cade perpendicular pe faţa plană a lentilei, este reflectat de 
+     suprafaţa superioară şi inferioară a acestei pene de 
+    aer şi interferă, obţinându-se franje de interferenţă sub forma unor inele concentrice, cu centrul în punctul de contact A dintre lentilă şi lamă, numite inelele lui Newton.
+</p>
+<br>
+
+
+<div style="text-align: center;">
+<img src="https://tema03.wordpress.com/wp-content/uploads/2024/06/5.png" class="image"> 
+</div>
+
+
+
+<p><strong style="font-size: 30px;">Aplicație practică: <br> </strong>
+
+O lentila plan convexă , cu faţa convexă având raza de curbură R,
+cu R 〉〉 h , unde h este înălţimea calotei sferice reprezentând lentila,
+este sprijinită orizontal, aflându-se la o mica distanţă de suprafaţa bazei
+superioare plane , perfect lustruite a unui cilindru de oţel – ca în figura
+de mai jos. Baza inferioară a cilindrului este fixată rigid; înălţimea cilindrului
+este h(0)=5cm. Folosind lumină monocromatică cu lungimea de undă
+λ = 600nm , ce cade sub incidenţă normală pe lentilă, se produc inelele
+lui Newton între lentilă şi baza superioară a cilindrului.
+Demonstrează că între razele  şi  a inele există relaţia:
+r ²(p) − r ²(g) = (p − g)R⋅λ.
+</p>
+
+<br><br><br><br>
+
+
+<div style="text-align: center;">
+  <img src="https://tema03.wordpress.com/wp-content/uploads/2024/06/1-1.webp" class="image"> 
+  </div>
+
+
+  <p><strong style="font-size: 30px;">Rezolvare: <br> </strong>
+   
+  Din figură se constată că: r(p) reprezintă raza inelului
+  de ordin p; e(p) este grosimea lamei de aer
+  corespunzătoare acestui inel; d(0) este distanţa dintre
+  lentilă şi suprafaţa bazei superioare plane a cilindrului de oţel. Atunci, vom putea scrie pentru acest inel:
+</p>
+
+
+
+<div style="padding-left: 270px;text-align: center;">
+  <img src="https://tema03.wordpress.com/wp-content/uploads/2024/06/2.png" class="image"> 
+  </div>
+
+  <br><br>
+
+  
+  <div style="text-align: center;">
+    <img src="https://tema03.wordpress.com/wp-content/uploads/2024/06/3-1.png" class="image"> 
+    </div>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+</body>
+</html>

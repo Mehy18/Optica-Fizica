@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.vai{
+    color: white;
+    background-color: green;
+}
+
+
+p{
+    font-size: large;
+    color:white;
+    max-width: 100%; /* Ensures paragraphs do not exceed the container width */
+    margin: 0 0 20px 0; /* Adds space between paragraphs */
+    overflow-wrap: break-word; /* Ensures long words break to fit within the container */
+    word-wrap: break-word; /* For compatibility with older browsers */
+}
+
+
+
+.sw-Banner {
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    -webkit-transition: .8s ease;
+    transition: .8s ease;
+    z-index: 99;
+    will-change: filter;
+    background: none;
+    border: none;
+    max-width: 30%;
+    max-height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+
+.sw-banner {
+    
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    -webkit-transition: .8s ease;
+    transition: .8s ease;
+    z-index: 99;
+    will-change: filter;
+    background: none;
+    max-width: 30%;
+    max-height: 30%;
+    display: flex;
+    align-items: flex-end;
+  
+  }
+  
+  .sageata {
+      
+      max-width: 20%;
+      bottom: 0px;
+      right: 0px;
+      margin: 0px;
+      opacity: 0.7;
+      float: left;
+  }
+  
+  .Sageata {
+      
+    max-width: 20%;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    opacity: 0.7;
+    float: right;
+  }
+
+.container {
+    display: flex;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.image {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: auto; /* Adjust the width as needed */
+    height: 400px; /* Maintain aspect ratio */
+    margin-right: 100px; /* Space between image and text */
+}
+
+.text {
+    align-self: center;
+    margin-right: 100px;
+}
