@@ -1,0 +1,95 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .sidenav a nav{
+    color: white;
+    background-color: rgba(255, 0, 0, 0);
+  }
+  
+  .sidenav a:hover{
+    text-decoration: none;
+  
+  }
+  
+  .closebtn{
+    align-items: center;
+    color: #f9f9f9;
+  }
+  
+  .closebtn:hover{
+    padding-right: 20px;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+  }
+  
+  .sidenav nav:hover{
+    padding-right: 30px;
+    background-color: gray;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: -5px;
+    left: -65px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+  .Open{
+    position: fixed;
+    top: 20px;
+    right: 35px;
+    -webkit-transition: .8s ease;
+    transition: .8s ease;
+    z-index: 99;
+    will-change: filter;
+    background: none;
+    border: none;
+    max-width: 30%;
+    max-height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .Open:hover{
+    padding-right: 5px;
+  
+  }
+  ::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
