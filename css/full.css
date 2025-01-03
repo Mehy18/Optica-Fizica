@@ -1,0 +1,49 @@
+.content {
+    margin-left: 110px; /* Creează un spațiu liber de 200px pe partea stângă */
+    margin-right: 110px;
+    margin-top: 0;
+    padding: 5px; /* Adaugă spațiu în interiorul secțiunii */
+}
+
+  nav{
+    background-color: rgba(192, 192, 192, 0.453);
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    color: black;
+    text-align: center
+}
+
+.image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: auto; /* Adjust the width as needed */
+    height: 400px; /* Maintain aspect ratio */
+    margin-right: 100px; /* Space between image and text */
+}
+
+.container {
+    display: flex;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+
+  .button1{
+    height: 50px;
+    font-size: 40px;
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    text-decoration: none;
+}
+
+  .button2{
+    height: 50px;
+    font-size: 40px;
+    position: absolute;
+    right: 10%;
+    text-align: center;
+    text-decoration: none;
+}
