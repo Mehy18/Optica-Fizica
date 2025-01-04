@@ -41,8 +41,19 @@ section {
     height: 100px;
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: #282424;
     position: fixed;
     color: white;
 }
 
+.smallt{
+    position: absolute;
+    bottom: 50px;
+    display: table;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color:#383434;
+    color: white;
+
+}
